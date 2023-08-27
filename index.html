@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portifólio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#portfolio">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3></h3>
+        <h1>Jonas Cardoso</h1>
+        <h3><span class="multiple-text">Desenvolvedor Front-end</span></h3>
+        <p>Sou um desenvolvedor Front-End apaixonado por criar interfaces web envolventes, combinando habilidades em HTML, CSS e JavaScript para transformar designs em experiências interativas e visualmente atraentes.</p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/jonas-cardoso-1891401a5/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/devjns" target="_blank"><i class="bx bxl-github"></i></a>
+        </div>
+        <a href="downloads/Curriculo.pdf" class="btn" download="Currículo">Baixar CV</a>
+      </div>
+      <div class="home-img">
+        
+      </div>
+    </section>
+    <!-- about section design -->
+     <section class="about" id="about">
+      <div class="about-img">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">Sobre <span>mim</span></h2>
+        <h3>Desenvolvedor Front-end</h3>
+        <p>Sou um entusiasta desenvolvedor Front-End apaixonado por criar experiências digitais excepcionais. Minha maestria em HTML, CSS e JavaScript me permite transformar designs criativos em interfaces interativas e responsivas. Com um toque moderno, utilizo frameworks como Bootstrap para acelerar o desenvolvimento e garantir layouts elegantes. Minha dedicação à estética e atenção aos detalhes resultam em páginas visualmente impressionantes. Estou constantemente atualizado com as últimas tendências do Front-End, trazendo animações suaves e funcionalidades avançadas para elevar a usabilidade. Estou ansioso para enfrentar novos desafios e contribuir para projetos inovadores.</p>
+      </div>
+     </section>
+    
+     
+    <!-- portfolio section design -->
+     <section class="portfolio" id="portfolio">
+      <h2 class="heading">Últimos <span>Projetos</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/perf.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Lading page responsiva</h4>
+            <p>Landing page responsiva utilizando HTML e CSS</p>
+            <a href="https://devjns.github.io/Landing-Page-Perfume/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/calc.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Calculadora de IMC</h4>
+            <p>Uma calculadora de IMC que indica o grau de obesidade</p>
+            <a href="https://devjns.github.io/calcula-imc/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/color.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Color Fliper</h4>
+            <p>Pagina que gera cores aleatórias</p>
+            <a href="https://devjns.github.io/Color-Flipper/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- contact section design -->
+     <section class="contact" id="contact">
+      <h2 class="heading">Fale <span>comigo</span></h2>
+      <form action="https://api.staticforms.xyz/submit" method="POST">
+        <input type="hidden" name="accessKey" value="7a4878db-9d8e-47d9-a02b-5fc5de517977">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Nome completo">
+          <input type="email" name="email" placeholder="Email">
+        </div>
+        <div class="input-box">
+          <input type="number" name="phone" placeholder="Telefone">
+          <input type="text" name="subject" placeholder="Assunto">
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+        <input type="submit" value="Enviar mensagem" class="btn">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#contact">
+      </form>
+     </section>
+    <!-- footer design -->
+     <footer class="footer">
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+     </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
